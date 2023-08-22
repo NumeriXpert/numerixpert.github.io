@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang | NumeriXpert</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="assets/logo-favicon.svg" type="image/x-icon">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="navbar" id="mynavbar">
+        <a href="https://numerixpert.github.io/" class="name">NumeriXpert</a>
+        <a href="https://numerixpert.github.io/article/" class="right">Bank Soal</a>
+        <a href="https://numerixpert.github.io/tutorial/" class="right">UTBK-SNBT</a>
+        <a href="https://numerixpert.github.io/project/" class="right">SMA</a>
+        <a href="https://numerixpert.github.io/profile/" class="right">SMP</a>
+        <a href="https://numerixpert.github.io/" class="right active">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="navbar()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class=" header ctr-flx-rw rspv-ctr-flx-cl">
+        <div class="chd wd-50 wd-100">
+            <h1>Membuka Pintu Menuju Keberhasilan Matematika: NumeriXpert</h1>
+            <p>Membuka pintu menuju keberhasilan matematika bersama NumeriXpert. Temukan potensi Anda dan tingkatkan pemahaman matematika dengan bimbingan kami.</p>
+            <a href="#" class="btn">Belajar Sekarang</a>
+        </div>
+        <div class="chd wd-50 wd-100">
+            <img src="../assets/math-ilustration.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="ctr-flx-rw rspv-ctr-flx-cl bgn-sl-jwb">
+        <div class="wd-50 wd-100">
+            <h1>Kumpulan soal dan pembahasan</h1>
+            <p>Temukan soal-soal menarik yang menguji pemahaman matematika Anda, lengkap dengan pembahasan yang membantu Anda memperdalam konsep dan keterampilan Anda.</p>
+            <a href="#" class="btn">Coba sekarang</a>
+        </div>
+        <div class="wd-50 wd-100">
+            <div class="question">
+                <p>jika \(5^{10x}=1600\) dan \(2^{\sqrt{y}}=25\), nilai \(\frac{(5^{x-1})^5}{8^{-\sqrt{y}}}\) adalah ...</p>
+                <label class="answer"">
+                    <input type="radio" name="answer" value="benar">
+                    <span class="radio-circle">A</span>
+                    <span>50</span>
+                </label>
+                <label class="answer"">
+                    <input type="radio" name="answer" value="salah">
+                    <span class="radio-circle">B</span>
+                    <span>100</span>
+                </label>
+                <label class="answer"">
+                    <input type="radio" name="answer" value="salah">
+                    <span class="radio-circle">C</span>
+                    <span>150</span>
+                </label>
+                <label class="answer"">
+                    <input type="radio" name="answer" value="salah">
+                    <span class="radio-circle">D</span>
+                    <span>200</span>
+                </label>
+                <label class="answer"">
+                    <input type="radio" name="answer" value="salah">
+                    <span class="radio-circle">E</span>
+                    <span>250</span>
+                </label>
+                <button id="checkAnswer" class="btn-chk">Periksa Jawaban</button>
+                <p id="result"></p>
+                <button class="btn-ans">
+                    <span>Pembahasan</span>
+                </button>
+                <div class="pembahasan">
+                    <table>
+                        <tr>
+                            <td><span>\( \sqrt{3+2 \sqrt{2}} - \sqrt{2} \)</span></td>
+                            <td><span>\( = \)</span></td>
+                            <td><span>\( \sqrt{(2+1)+2 \sqrt{(2+1)}} - \sqrt{2} \)</span></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>\( = \)</td>
+                            <td>\( \sqrt{2} + \sqrt{1} - \sqrt{2}\)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>\( = \)</td>
+                            <td>\( \sqrt{1} \)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>\( = \)</td>
+                            <td>\( 1 \) <span><b><i>(D)</i></b></b></span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer ctr-grd">
+        <div class="chd">
+            <img src="../assets/logo-nav.svg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, voluptatibus. Numquam quaerat natus quae tempora, quos architecto qui soluta aperiam.</p>
+        </div>
+        <div class="chd">
+            <b>Navigasi</b>
+            <ul>
+                <li><a href="#">SMP</a></li>
+                <li><a href="#">SMA</a></li>
+                <li><a href="#">UTBK</a></li>
+                <li><a href="#">Bank soal</a></li>
+            </ul>
+        </div>
+        <div class="chd">
+            <b>Informasi</b>
+            <ul>
+                <li><i class="ri-phone-line"></i><span>+6282235506108</span></li>
+                <li><i class="ri-mail-line"></i><span>hello@numerixpert.com</span></li>
+                <li><i class="ri-map-pin-line"></i><span>Surakarta</span></li>
+            </ul>
+        </div>
+        <div class="chd">
+            <b>Ikuti kami :</b>
+            <div class="sosmed-icon">
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-linkedin-box-line"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
